@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Menu from '../../components/Menu'
+import Footer from '../../components/Footer'
 import './style.css'
 
 import Axios from 'axios'
@@ -29,7 +30,7 @@ const Simpsons = () => {
             <div className='main-simpson'>
                 {personagem.map(perso => {
                     return(
-                        <div className="card">
+                        <div className="card" key={perso.character}>
                             <p>{perso.character}</p>
                             <img src={perso.image} alt="personagem simpson"/>
                         </div>
@@ -38,6 +39,7 @@ const Simpsons = () => {
                 })}
                 <button onClick={ligaClique}>Clique para trocar o personagem</button>
             </div>
+            < Footer />
         </>
     )
 }

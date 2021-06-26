@@ -1,0 +1,79 @@
+.input{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3rem;
+    
+
+}
+
+.search{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.input-card{
+    background: #c47f7f;
+    display: flex;
+    width: 250px;
+    border-radius: 7px;
+    align-items: center;
+    color: rgb(252, 252, 252);
+
+}
+
+.input-card>input{
+    border: none;
+    padding: 8px;
+    outline: none;
+    font-size: 14px;
+    width: 350px;
+    background: transparent;
+    color: rgb(252, 252, 252);
+}
+
+.wrapper{
+    min-height: 430px;
+    background: #ffff;
+    padding-top: 2rem;
+}
+.personagens{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.card-personagens{
+    width: 300px;
+    margin: 2rem;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgb(187, 124, 135);
+}
+
+.card-personagens>h1{
+    font-size: 1.3rem;
+    color: rgb(170, 146, 114);
+}
+
+input::placeholder {
+    color: rgb(231, 227, 227);
+  }
+
+.card-personagens>p{
+    font-size: 1.1rem;
+    color: rgb(192, 69, 161);
+    padding-bottom: 1rem;
+
+}
+
+.card-personagens>img{
+    width: 100%;
+    bottom: 0;
+
+
+}

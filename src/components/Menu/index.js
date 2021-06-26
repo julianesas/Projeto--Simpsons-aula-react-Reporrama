@@ -7,11 +7,14 @@ const Menu = () => {
     return (
         <div>
             <ul className="menu">
-                <li>
+                <li key='1'>
                     <Link className="link" to="/">Home</Link>
                 </li>
-                <li>
-                    <Link className="link"to="/simpsons">Simpsons</Link>
+                <li key='2'>
+                    <Link className="link" to="/simpsons">Simpsons</Link>
+                </li>
+                <li key='3'>
+                    <Link className="link" to="/rickandMorty">RickandMorty</Link>
                 </li>
             </ul>
         </div>

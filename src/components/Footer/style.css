@@ -1,0 +1,63 @@
+footer{
+    width: 100%;
+    background: rgb(187, 84, 84);
+    bottom: 0;
+    font-size: 0.8rem;
+    color: #ffff;
+    letter-spacing: 0.8px;
+    text-align: center; 
+    font-family: Nunito, sans-serif; 
+}
+
+.autora{
+    width: 50%;
+    padding: 1rem;
+}
+
+.autora h1{
+    color: rgb(180, 161, 161);
+    font-size: 1.3rem;
+}
+
+.autora h2{
+    color: rgb(235, 201, 201);
+    font-size: 1.2rem;
+
+}
+
+.autora p{
+    color: rgb(243, 239, 239);
+    font-size: 0.8rem;
+
+}
+
+.rodape__principal{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    font-size: 0.8rem;
+
+}
+
+.rodape__redes-sociais{
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.rodape__redes-sociais>h2{
+    color: rgb(235, 201, 201);
+    font-size: 1.2rem;
+
+}
+
+.rodape__redes-sociais> a{
+    margin: 1rem;
+}
+.rodape__redes-sociais>a>img{
+    width: 50px;
+    margin-top: 1rem;
+}
+.rodape__cc{
+    text-align: center;
+    color: rgb(212, 203, 203)
+}

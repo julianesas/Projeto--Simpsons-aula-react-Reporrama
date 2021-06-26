@@ -4,21 +4,25 @@
     justify-content: center;
     align-items: center;
     background-color: wheat;
+    width: 100%;
+    min-height: 430px;
+    max-height: 430px;
+    padding: 1rem;
 }
 
 .main-simpson .card{
     background-color: wheat;
-    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 400px;
+    padding: 1rem;
 
 }
 
 .main-simpson .card img{
-    width: 50%;
-    height: 80%;
+    height: 200px;
 }
 
 .main-simpson .card h2{
@@ -27,7 +31,7 @@
 
 
 .main-simpson button {
-    background-color: black;
+    background-color: #c96262;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -37,6 +41,7 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 8px;
 }
 
 @media (max-width:768px){
@@ -60,7 +65,7 @@
     }
 
     .main-simpson button {
-    background-color: black;
+    background-color: #c96262;
     border: none;
     color: white;
     padding: 15px 32px;
